@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    overflow: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 40px;
+}
+
+h2 {
+    position: absolute;
+    top: 160px; 
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#black {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    background-color: black;
+    display: none;
+}
+
+button {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 150px;
+    height: 75px;
+    border-radius: 25px;
+    border: 5px solid black;
+    font-size: x-large;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+#play {
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#info {
+    top: calc(50% + 75px);
+}
+  
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 500px;
+    margin-left: 80px;
+    margin-top: -50px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 15px 15px 15px 15px;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+    font-size: 16px;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+#instructions {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}

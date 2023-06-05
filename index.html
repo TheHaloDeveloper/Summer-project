@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSC - Anay Mittal</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Three.js -->
+    <script src="three.js-master/build/three.min.js"></script>
+    <script src="three.js-master/examples/js/controls/OrbitControls.js"></script>
+    <script src="three.js-master/examples/js/loaders/GLTFLoader.js"></script>
+
+    <!-- TweenMax -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+
+    <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+</head>
+<body>
+    <div id="scene"></div>
+
+    <div id="home" style="display: none;">
+        <h1>Summer Project</h1>
+        <h2>Anay Mittal</h2>
+
+        <button id="play">Play</button>
+        <button id="info" class="tooltip">Description<span class="tooltiptext">This is a demonstration for a potential game. The map was modeled in Blender (by me). Some assets were taken from the internet, under the MIT license (free to use). The assets were later modified in Blender. I used three.js to create this scene, with my map loaded up.<br><br>Grading:<br>Overall project - that's up to you!<br>Well conceived - I mean, this could be a base for a game!<br>Technical Skills - Oh, yeah :)<br>Creativity and Originality - I mean, this is creative right?? Completely original, too.<br>Description - You're reading it!<br>Followed Directions - Well, yes, it follows the theme of summer.<br>Humor - You're telling me the character of Samar isn't funny??</span></button>
+
+        <script src="main.js"></script>
+    </div>
+
+    <div id="black"></div>
+
+    <div id="instructions">Controls: W, S, Left Arrow, Right Arrow, Scroll Wheel, Left Mouse</div>
+</body>
+
+</html>
